@@ -1,40 +1,75 @@
 		body {
 			background-image: url(bg.png);
 			font-family: Tahoma;
+			margin: 0px auto; 	
+			width:1025px;
 		}
 		
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			margin: 0px auto;
+			margin-top: -13px;
+			padding-bottom: 10px;
+			
 		}
 		
 		header nav ul {
 			list-style-type: none;
-			background-color: rgba(255,255,200,0.3);
+			background-color: rgba(275,255,220,0.3);
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin-right: 7px;
+			margin-left: 7px;
 		}
 		
 		#content {
-			
+			font-family: sans-serif;
 		}
 		
 		nav li {
-			
+			display: inline;
 		}
 		
 		nav li a {
+			display: inline;
+			color: black;
+			text-decoration: none;
+			padding-right: 60px;
+			font-weight: bold;
+			margin-left: -30px;
 		}
 		
-		main{
+		main {
 			border: 1px black solid;
-			background-color: rgba(200,200,255,0.3);
+			background-color: rgba(200,200,355,0.3);
+			margin-right: 760px;
+			position: absolute;
+			width: 680px;
+			height: 403px;
+			margin-left: 7px;
+			padding-top: 10px;
+			padding-left: 10px;
+			padding-right: 11px;
 		}
 		
-		aside{
+		aside {
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			margin-right: 720px;
+			margin-top: 20px;
+			position: relative;
+			left: 707px;
+			border-left: 2px black solid;
+			border-right: 1px solid black;
+			padding-top: 10px;
+			padding-right: 10px;
+			padding-left: 10px;
+			padding-bottom: 20px;
 		}
 		
 		body article {
 			background-color: rgba(200,200,200,0.6);
+			padding-bottom: 20px;
 		}
 		
 		header {
@@ -42,5 +77,18 @@
 		
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			padding-bottom: 10px;
+			margin-left: 10px;
+			margin-right: 10px;
+			text-align: center;
 		}
-	
+
+		h1 {	
+			margin-bottom: -10px;
+		}
+h1.headertop {
+	margin-bottom: -20px;
+	margin-top: 20px;
+	text-align: center;
+	padding: 29px;
+}
